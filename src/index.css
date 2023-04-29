@@ -1,0 +1,48 @@
+.shopping-item, .shopping-input {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.shopping-input {
+    margin-left: 40px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.shopping-item .name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.shopping-item .quantity {
+    font-style: italic;
+    margin-right: 10px;
+}
+
+span:first-child {
+    max-width: 70px;
+    overflow: hidden;
+}
